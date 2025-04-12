@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Z - Premium Roblox Executor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body class="dark-theme loading">
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">σZ</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+    <canvas id="particleCanvas"></canvas>
+
+    <div class="page-content hidden">
+        <header>
+            <nav>
+                <div class="logo">Sigma Z</div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#script-hub">Script Hub</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#download">Download</a>
+                    <button class="theme-toggle" aria-label="Toggle theme">
+                        <svg class="sun-icon" viewBox="0 0 24 24">
+                            <path d="M12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3z"/>
+                            <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24">
+                            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 3z"/>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero" class="hero-section">
+                <h1 class="gradient-text entrance-zoom">Sigma Z</h1>
+                <div class="typewriter-text entrance-fade">The Most Advanced Roblox Executor</div>
+                <button class="download-btn glow-effect entrance-slide-up">
+                    Download Now
+                    <span class="btn-particles"></span>
+                </button>
+                <div class="executor-preview entrance-fade-delay">
+                    <!-- 3D mockup will be added via CSS -->
+                </div>
+            </section>
+
+            <section id="features" class="features-section">
+                <h2 class="section-title">Premium Features</h2>
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <div class="card-icon">🚀</div>
+                        <h3>Lightning Fast</h3>
+                        <p>Execute scripts instantly with our optimized engine</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-icon">🛡️</div>
+                        <h3>Undetectable</h3>
+                        <p>Advanced protection against anti-cheat systems</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-icon">📚</div>
+                        <h3>Vast Library</h3>
+                        <p>Access thousands of pre-made scripts</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="script-hub" class="script-hub-section">
+                <h2 class="section-title">Script Hub</h2>
+                <div class="script-cards">
+                    <!-- Script cards will be added dynamically via JavaScript -->
+                </div>
+            </section>
+
+            <section id="testimonials" class="testimonials-section">
+                <h2 class="section-title">What Users Say</h2>
+                <div class="testimonial-carousel">
+                    <!-- Testimonials will be added dynamically -->
+                </div>
+                <div class="stats-counter">
+                    <div class="stat">
+                        <span class="counter" data-target="1000000">0</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="counter" data-target="50000">0</span>
+                        <span class="stat-label">Scripts Available</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="download" class="download-section">
+                <h2 class="section-title">Get Started</h2>
+                <div class="os-selector">
+                    <button class="os-btn active" data-os="windows">Windows</button>
+                    <button class="os-btn" data-os="mac">Mac</button>
+    <header>
+        <nav>
+            <div class="logo">Sigma Z</div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#script-hub">Script Hub</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#download">Download</a>
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24">
+                        <path d="M12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3z"/>
+                        <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24">
+                        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 3z"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <h1 class="gradient-text">Sigma Z</h1>
+            <div class="typewriter-text">The Most Advanced Roblox Executor</div>
+            <button class="download-btn glow-effect">
+                Download Now
+                <span class="btn-particles"></span>
+            </button>
+            <div class="executor-preview">
+                <!-- 3D mockup will be added via CSS -->
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <h2 class="section-title">Premium Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Execute scripts instantly with our optimized engine</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Undetectable</h3>
+                    <p>Advanced protection against anti-cheat systems</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Vast Library</h3>
+                    <p>Access thousands of pre-made scripts</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="script-hub" class="script-hub-section">
+            <h2 class="section-title">Script Hub</h2>
+            <div class="script-cards">
+                <!-- Script cards will be added dynamically via JavaScript -->
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2 class="section-title">What Users Say</h2>
+            <div class="testimonial-carousel">
+                <!-- Testimonials will be added dynamically -->
+            </div>
+            <div class="stats-counter">
+                <div class="stat">
+                    <span class="counter" data-target="1000000">0</span>
+                    <span class="stat-label">Active Users</span>
+                </div>
+                <div class="stat">
+                    <span class="counter" data-target="50000">0</span>
+                    <span class="stat-label">Scripts Available</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download-section">
+            <h2 class="section-title">Get Started</h2>
+            <div class="os-selector">
+                <button class="os-btn active" data-os="windows">Windows</button>
+                <button class="os-btn" data-os="mac">Mac</button>
+                <button class="os-btn" data-os="android">Android</button>
+            </div>
+            <div class="installation-steps">
+                <!-- Steps will be populated via JavaScript -->
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section">
+            <h2 class="section-title">FAQ</h2>
+            <div class="faq-accordion">
+                <!-- FAQ items will be added dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,58.7C672,53,768,43,864,42.7C960,43,1056,53,1152,58.7C1248,64,1344,64,1392,64L1440,64L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+            </svg>
+        </div>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link">Discord</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">YouTube</a>
+            </div>
+            <div class="copyright">
+                © 2024 Sigma Z. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
